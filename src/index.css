@@ -5,14 +5,34 @@
 }
 
 :root {
-  --purple1: #8247FF;
-  --purple2: #E4C8F3;
-  --purple3: #EDEDFA;
-  --purple4: #F7F8FD;
-  --orange1: #FE8162;
-  --orange2: #FDF2EC;
-  --grey1: #1C1C1C;
+  --purple1: #8247ff;
+  --purple2: #e4c8f3;
+  --purple3: #ededfa;
+  --purple4: #f7f8fd;
+  --orange1: #fe8162;
+  --orange2: #fdf2ec;
+  --grey1: #1c1c1c;
   --grey2: #212121;
   --grey3: #767575;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background-color: #F1F1F1; */
+  background: none;
+  margin: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 5px;
+}
+
+.between-text-orange {
+  color: var(--orange1);
+}

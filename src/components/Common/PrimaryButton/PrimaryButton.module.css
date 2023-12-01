@@ -1,12 +1,12 @@
 .btn {
-  padding: 0.7rem 1rem;
+  padding: 0.8rem 1.2rem;
   background-color: var(--purple1);
   color: white;
   /* border: 3px solid var(--purple1); */
   border: none;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
   transition: 150ms box-shadow ease-in-out;
   cursor: pointer;
   width: fit-content;

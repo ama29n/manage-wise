@@ -1,4 +1,28 @@
 .box {
-    border: 2px solid black;
-    height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subHeading {
+  font-size: 1.3rem;
+  color: var(--grey3);
+  width: 650px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.cardGroup {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
 }

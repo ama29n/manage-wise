@@ -1,0 +1,15 @@
+.box {
+    border: 1px solid var(--purple2);
+    width: fit-content;
+    padding: 0.4rem 0.5rem;
+    color: var(--purple1);
+    display: flex;
+    gap: 6px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    align-items: flex-end;
+    border-radius: 8px;
+    background-color: white;
+    text-transform: uppercase;
+}
