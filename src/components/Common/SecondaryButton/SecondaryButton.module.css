@@ -1,0 +1,19 @@
+.btn {
+    padding: 0.7rem 1rem;
+    background-color: white;
+    color: var(--grey1);
+    border: 1px solid var(--purple3);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 150ms border-color ease-in;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-color: var(--grey2);
+}
+
+.btn:active {
+    border-color: var(--grey1);
+}

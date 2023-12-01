@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple1: #8247FF;
+  --purple2: #E4C8F3;
+  --purple3: #EDEDFA;
+  --purple4: #F7F8FD;
+  --orange1: #FE8162;
+  --orange2: #FDF2EC;
+  --grey1: #1C1C1C;
+  --grey2: #212121;
+  --grey3: #767575;
+}
+
