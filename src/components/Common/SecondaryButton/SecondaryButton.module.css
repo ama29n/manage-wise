@@ -8,6 +8,7 @@
     font-size: 1.1rem;
     transition: 150ms border-color ease-in;
     cursor: pointer;
+    width: fit-content;
 }
 
 .btn:hover {

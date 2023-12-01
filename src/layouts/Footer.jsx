@@ -1,8 +1,12 @@
-import React from 'react'
+import styles from "../components/Footer/Footer.module.css";
+import { DontMissOut, FooterNavbar } from "../components/Footer/app";
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className={styles.box}>
+      <DontMissOut />
+      <FooterNavbar />
+    </div>
   )
 }
 
