@@ -7,7 +7,7 @@ function Footer() {
       <DontMissOut />
       <FooterNavbar />
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

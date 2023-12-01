@@ -5,7 +5,6 @@ import CardImage1 from "../assets/features-card-flexible_scheduling.webp";
 import CardImage2 from "../assets/features-card-easy_communication.webp";
 import CardImage3 from "../assets/features-card-analytics.webp";
 
-
 function Features() {
   return (
     <div className={styles.box} id="features">

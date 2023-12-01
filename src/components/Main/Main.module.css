@@ -1,41 +1,41 @@
 .box {
-    padding: 4.5rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    background-image: linear-gradient(180deg, #fdf2ec, #fdf2ec, white, white);
+  padding: 4.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-image: linear-gradient(180deg, #fdf2ec, #fdf2ec, white, white);
 }
 
 .heading {
-    font-size: 4.5rem;
-    width: 1000px;
-    font-weight: bold;
-    text-align: center;
+  font-size: 4.5rem;
+  width: 1000px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .subHeading {
-    font-size: 1.3rem;
-    color: var(--grey3);
-    width: 650px;
-    text-align: center;
-    font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--grey3);
+  width: 650px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .buttonGroup {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .application {
-    width: 80%;
-    margin: 0 auto;
-    background-color: none;
+  width: 80%;
+  margin: 0 auto;
+  background-color: none;
 }
 
 .application > img {
-    width: 100%;
-    height: auto;
-    border-radius: 22px;
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
 }

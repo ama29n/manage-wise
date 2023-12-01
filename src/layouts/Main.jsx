@@ -1,5 +1,9 @@
 import styles from "../components/Main/Main.module.css";
-import { HeadingBefore, PrimaryButton, SecondaryButton } from "../components/Common/app";
+import {
+  HeadingBefore,
+  PrimaryButton,
+  SecondaryButton,
+} from "../components/Common/app";
 import ApplicationImage from "../assets/main-application.webp";
 
 function Main() {
@@ -29,7 +33,6 @@ function Main() {
       <div className={styles.application}>
         <img src={ApplicationImage} alt="application" />
       </div>
-
     </div>
   );
 }

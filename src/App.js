@@ -1,4 +1,14 @@
-import { Header, Main, Features, More, Integrations, FAQ, Pricing, Testimonials, Footer } from "./layouts/app";
+import {
+  Header,
+  Main,
+  Features,
+  More,
+  Integrations,
+  FAQ,
+  Pricing,
+  Testimonials,
+  Footer,
+} from "./layouts/app";
 
 function App() {
   return (
@@ -13,7 +23,7 @@ function App() {
       <Testimonials />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -22,7 +22,6 @@ const FooterNavbar = () => {
           <a href="#testimonials">Testimonials</a>
         </li>
       </ul>
-
     </div>
   );
 };
