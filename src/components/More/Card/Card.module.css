@@ -3,6 +3,7 @@
   background-color: var(--grey2);
   width: 370px;
   border-radius: 25px;
+  height: 100%;
 }
 
 .icon {

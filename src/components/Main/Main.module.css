@@ -1,10 +1,11 @@
 .box {
-  padding: 4.5rem 1rem;
+  padding: 6rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
   background-image: linear-gradient(180deg, #fdf2ec, #fdf2ec, white, white);
+  overflow-x: hidden;
 }
 
 .heading {
@@ -37,5 +38,5 @@
 .application > img {
   width: 100%;
   height: auto;
-  border-radius: 22px;
+  border-radius: 25px;
 }
