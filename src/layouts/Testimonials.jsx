@@ -1,6 +1,6 @@
 import styles from "../components/Testimonials/Testimonials.module.css";
 import { HeadingBefore } from "../components/Common/app";
-
+import { ContinuousSlider } from "../components/Testimonials/app";
 import { AnimatePresence } from "framer-motion";
 
 import FramerDiv from "../Framer/FramerDiv";
@@ -24,6 +24,7 @@ function Testimonials() {
             testimonials and learn how we has helped businesses.
           </div>
         </div>
+        <ContinuousSlider />
       </div>
     </AnimatePresence>
   );

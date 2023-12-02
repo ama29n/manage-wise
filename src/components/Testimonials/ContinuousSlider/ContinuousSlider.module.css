@@ -1,0 +1,11 @@
+.slider-container {
+  padding: 2rem 0 2rem;
+  overflow-x: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  cursor: pointer;
+  padding: 0 1.5rem; /* Adjust the padding to set the gap between cards */
+}

@@ -1,0 +1,42 @@
+.box {
+  padding: 2rem;
+  border: 1px solid var(--purple3);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: var(--grey1);
+  font-weight: 500;
+}
+
+.image {
+  width: 80px;
+}
+
+.image > img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.name {
+  color: var(--orange1);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.role {
+    color: var(--grey3);
+    font-size: 1rem;
+    font-weight: bold;
+}
