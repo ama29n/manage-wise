@@ -23,3 +23,31 @@
   width: 550px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1000px) {
+  .data {
+    align-items: center;
+  }
+  .heading {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 2rem;
+    width: 450px;
+  }
+  .text {
+    width: 400px;
+  }
+}

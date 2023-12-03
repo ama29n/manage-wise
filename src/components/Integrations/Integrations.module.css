@@ -33,3 +33,44 @@
   width: 100%;
   margin-bottom: -5px;
 }
+
+@media screen and (max-width: 1000px) {
+  .heading {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    width: 450px;
+  }
+  .image {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 2rem;
+    width: 550px;
+  }
+  .text {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    font-size: 2rem;
+    width: 410px;
+  }
+  .subHeading {
+    width: 360px;
+  }
+  .image {
+    width: 380px;
+  }
+}

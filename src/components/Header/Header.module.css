@@ -31,3 +31,15 @@
 .list > li > a:hover {
   color: var(--purple1);
 }
+
+@media screen and (max-width: 1000px) {
+  .box {
+    justify-content: center;
+  }
+  .list {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+}

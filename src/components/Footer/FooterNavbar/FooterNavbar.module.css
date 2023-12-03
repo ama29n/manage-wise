@@ -32,3 +32,13 @@
 .list > li > a:hover {
   color: var(--purple1);
 }
+
+@media screen and (max-width: 768px) {
+  .box {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .list {
+    align-items: center;
+  }
+}

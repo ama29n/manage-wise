@@ -40,3 +40,47 @@
   height: auto;
   border-radius: 25px;
 }
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    font-size: 3rem;
+    width: 800px;
+  }
+  .subHeading {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+    width: 600px;
+  }
+  .subHeading {
+    width: 450px;
+  }
+
+  .box {
+    padding: 3rem 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 2rem;
+    width: 550px;
+  }
+  .subHeading {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    font-size: 2rem;
+    width: 410px;
+  }
+  .subHeading {
+    width: 360px;
+  }
+}

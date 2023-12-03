@@ -10,23 +10,57 @@ import { motion, AnimatePresence } from "framer-motion";
 import FramerDiv from "../Framer/FramerDiv";
 
 function Main() {
-  const [scrollY, setScrollY] = useState(0);
+  // Logic to get screen width
+  const [screenSize, setScreenSize] = useState(getCurrentDimension());
+  function getCurrentDimension() {
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
+  }
+  useEffect(() => {
+    const updateDimension = () => {
+      setScreenSize(getCurrentDimension());
+    };
+    window.addEventListener("resize", updateDimension);
 
+    return () => {
+      window.removeEventListener("resize", updateDimension);
+    };
+  }, [screenSize]);
+
+  // Method to return scale factor
+  const getScaleFactor = () => {
+    if(screenSize.width > 1400) {
+      return 7.5;
+    } else if(screenSize.width > 1100) {
+      return 6;
+    } else if(screenSize.width > 950) {
+      return 5;
+    } else if(screenSize.width > 750) {
+      return 4;
+    } else if(screenSize.width > 550) {
+      return 3;
+    } else {
+      return 2;
+    }
+  }
+
+  // Logic to add animation
+  const [scrollY, setScrollY] = useState(0);
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
     };
-
     // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
-
     // Remove event listener on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  const scaleFactor = 7.5 + scrollY / 3000;
+  const scaleFactor = getScaleFactor() + scrollY / 3000;
 
   return (
     <AnimatePresence>

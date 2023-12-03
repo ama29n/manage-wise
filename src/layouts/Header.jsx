@@ -24,7 +24,9 @@ const Header = () => {
         </li>
       </ul>
 
-      <SecondaryButton text="Buy Template" />
+      <div className={styles.button}>
+        <SecondaryButton text="Buy Template" />
+      </div>
     </div>
   );
 };

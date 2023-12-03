@@ -4,12 +4,46 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./ContinuousSlider.module.css";
 import Card from "./Card/Card";
 
+import { useState, useEffect } from "react";
+
 const ContinuousSlider = () => {
+  const [screenSize, setScreenSize] = useState(getCurrentDimension());
+
+  function getCurrentDimension() {
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
+  }
+
+  useEffect(() => {
+    const updateDimension = () => {
+      setScreenSize(getCurrentDimension());
+    };
+    window.addEventListener("resize", updateDimension);
+
+    return () => {
+      window.removeEventListener("resize", updateDimension);
+    };
+  }, [screenSize]);
+
+  const determineSlides = () => {
+    if(screenSize.width > 1400) {
+      return 4;
+    } else if(screenSize.width > 1000) {
+      return 3;
+    } else if(screenSize.width > 768) {
+      return 2;
+    } else {
+      return 1;
+    }
+  }
+
   const settings = {
     dots: false,
     infinite: true,
     speed: 10000,
-    slidesToShow: 4,
+    slidesToShow: determineSlides(),
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 10,

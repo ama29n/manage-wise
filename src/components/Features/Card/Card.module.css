@@ -4,6 +4,7 @@
   width: 370px;
   border-radius: 25px;
   border: 1px solid var(--purple3);
+  height: 100%;
 }
 
 .image {
@@ -31,4 +32,58 @@
   font-weight: bold;
   color: var(--grey3);
   font-weight: 500;
+}
+
+@media screen and (max-width: 1500px) {
+  .box {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .box {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 270px;
+  }
+  .heading {
+    color: var(--grey1);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--grey3);
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .box {
+    width: 400px;
+  }
+  .heading {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .box {
+    width: 370px;
+  }
 }
