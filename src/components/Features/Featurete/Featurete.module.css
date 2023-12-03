@@ -182,3 +182,12 @@
     width: 370px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .leftBox {
+    width: 300px;
+  }
+  .rightBox {
+    width: 320px;
+  }
+}

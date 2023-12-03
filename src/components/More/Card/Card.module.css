@@ -91,3 +91,10 @@
     width: 370px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .box {
+    width: 320px;
+  }
+}
+

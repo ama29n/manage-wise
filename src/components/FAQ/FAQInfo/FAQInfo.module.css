@@ -41,3 +41,19 @@
 .answerClose {
   display: none;
 }
+
+@media screen and (max-width: 1300px) {
+  .box {
+    padding: 1rem;
+    gap: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .questionOpen {
+    font-size: 1.3rem;
+  }
+  .questionClose {
+    font-size: 1.3rem;
+  }
+}

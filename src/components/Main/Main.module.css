@@ -25,7 +25,7 @@
 
 .buttonGroup {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   align-items: center;
 }
 
@@ -67,20 +67,29 @@
 
 @media screen and (max-width: 600px) {
   .heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 550px;
   }
   .subHeading {
+    font-size: 1rem;
     width: 400px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .heading {
-    font-size: 2rem;
     width: 410px;
   }
   .subHeading {
     width: 360px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .heading {
+    width: 350px;
+  }
+  .subHeading {
+    width: 320px;
   }
 }

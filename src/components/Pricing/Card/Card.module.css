@@ -86,3 +86,12 @@
     width: 370px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .lightBox {
+    width: 320px;
+  }
+  .darkBox {
+    width: 320px;
+  }
+}

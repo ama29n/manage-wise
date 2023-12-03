@@ -44,10 +44,29 @@
 
 @media screen and (max-width: 600px) {
   .heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 450px;
   }
   .text {
     width: 400px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    width: 410px;
+  }
+  .text {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .heading {
+    width: 350px;
+  }
+  .text {
+    width: 320px;
   }
 }
